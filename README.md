@@ -6,7 +6,7 @@ Notes of ubuntu.
 * [pip]()
 * [labelimg]()
 * 
-## Truobleshooting
+## Tips
 #### rename file
 ```
 rm fromfilename tofilename
@@ -18,3 +18,4 @@ sudo apt-get remove cmake
 The following packages were automatically installed and are no longer required:  
 &nbsp;&nbsp;cmake-data libjsoncpp1  
 Use 'sudo apt autoremove' to remove them.  
+## Troubleshooting
