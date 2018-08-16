@@ -1,6 +1,7 @@
 # study_ubuntu
 Notes of ubuntu.
-
+## wiki
+* ssh
 ## rename file
 ```
 rm fromfilename tofilename
