@@ -2,6 +2,7 @@
 Notes of ubuntu.
 ## wiki
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
+* [git]()
 #### rename file
 ```
 rm fromfilename tofilename
