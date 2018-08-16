@@ -1,4 +1,4 @@
-# study_ubuntu
+# study-ubuntu
 Notes of ubuntu.
 ## wiki
 * ssh
