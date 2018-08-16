@@ -2,11 +2,11 @@
 Notes of ubuntu.
 ## wiki
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
-## rename file
+#### rename file
 ```
 rm fromfilename tofilename
 ```
-## 卸载cmake
+#### 卸载cmake
 ```
 sudo apt-get remove cmake
 ```
