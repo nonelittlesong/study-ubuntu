@@ -5,6 +5,7 @@ Notes of ubuntu.
 * [git]()
 * [pip]()
 * [labelimg]()
+* [ip设置]()
 * 
 ## Tips
 #### rename file
