@@ -7,7 +7,9 @@ Notes of ubuntu.
 * [labelimg]()
 * [ip设置]()
 * 
-## Tips
+## Shortcuts
+`ctrl+shift+t`:在原窗口打开终端  
+## Commands
 #### rename file
 ```
 rm fromfilename tofilename
