@@ -9,6 +9,7 @@ Notes of ubuntu.
 * 
 ## Shortcuts
 `ctrl+shift+t`:在原窗口打开终端  
+`将窗体托向屏幕两侧实现分屏`  
 ## Commands
 #### rename file
 ```
