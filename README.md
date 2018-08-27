@@ -14,11 +14,11 @@ Notes of ubuntu.
 ## Commands
 **rename file**  
 ```
-rm fromfilename tofilename
+$ rm fromfilename tofilename
 ```
 **卸载cmake**  
 ```
-sudo apt-get remove cmake
+$ sudo apt-get remove cmake
 ```
 >The following packages were automatically installed and are no longer required:  
 &nbsp;&nbsp;cmake-data libjsoncpp1  
