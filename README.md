@@ -20,14 +20,16 @@ rm fromfilename tofilename
 ```
 sudo apt-get remove cmake
 ```
+>The following packages were automatically installed and are no longer required:  
+&nbsp;&nbsp;cmake-data libjsoncpp1  
+>Use 'sudo apt autoremove' to remove them.  
+
 **查找文件**  
 filename可以是文件名的一部分  
 ```
 $ locate filename
 ```
-The following packages were automatically installed and are no longer required:  
-&nbsp;&nbsp;cmake-data libjsoncpp1  
-Use 'sudo apt autoremove' to remove them.  
+
 ## Troubleshooting
 **1、 版本更新后输入法出现问题**  
 >（1） 打开设置  
