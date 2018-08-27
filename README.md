@@ -12,13 +12,18 @@ Notes of ubuntu.
 * `将窗体托向屏幕两侧实现分屏`
 
 ## Commands
-#### rename file
+**rename file**  
 ```
 rm fromfilename tofilename
 ```
-#### 卸载cmake
+**卸载cmake**  
 ```
 sudo apt-get remove cmake
+```
+**查找文件**  
+filename可以是文件名的一部分  
+```
+$ locate filename
 ```
 The following packages were automatically installed and are no longer required:  
 &nbsp;&nbsp;cmake-data libjsoncpp1  
