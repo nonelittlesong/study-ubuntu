@@ -39,7 +39,7 @@ $ locate filename
 >（5） 重启电脑  
 
 **2、 无法链接proxy**  
->(1) 打开preferences
->(2) General
->(3) Network Proxy
->(4) check np proxy
+>(1) 打开preferences  
+>(2) General  
+>(3) Network Proxy  
+>(4) check np proxy  
