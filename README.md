@@ -12,6 +12,10 @@ Notes of ubuntu.
 * `将窗体托向屏幕两侧实现分屏`
 
 ## Commands
+**zip**  
+```
+$ zip -r target.zip files
+```
 **rename file**  
 ```
 $ rm fromfilename tofilename
