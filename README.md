@@ -46,4 +46,4 @@ $ locate filename
 >(1) 打开preferences  
 >(2) General  
 >(3) Network Proxy  
->(4) check np proxy  
+>(4) check up proxy  
