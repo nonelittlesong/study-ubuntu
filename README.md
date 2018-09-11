@@ -14,6 +14,14 @@ Notes of ubuntu.
 * `将窗体托向屏幕两侧实现分屏`
 
 ## Commands
+**进程**  
+```
+# 查看进程
+$ ps -ef|grep mysqld
+# 杀死进程
+$ kill -9 进程号
+```
+
 **zip**  
 ```
 $ zip -r target.zip files
