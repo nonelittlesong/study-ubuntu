@@ -7,6 +7,7 @@ Notes of ubuntu.
 * [labelimg]()
 * [ip设置]()
 * [安装oh-my-zsh](https://github.com/nonelittlesong/study-ubuntu/wiki/install-oh-my-zsh)
+* [Shell](https://github.com/nonelittlesong/study-ubuntu/wiki/Shell)
 
 ## Shortcuts
 * `ctrl+shift+t`:在原窗口打开终端
