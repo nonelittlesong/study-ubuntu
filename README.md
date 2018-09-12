@@ -8,6 +8,8 @@ Notes of ubuntu.
 * [ip设置]()
 * [安装oh-my-zsh](https://github.com/nonelittlesong/study-ubuntu/wiki/install-oh-my-zsh)
 * [Shell](https://github.com/nonelittlesong/study-ubuntu/wiki/Shell)
+* [CentOS](https://github.com/nonelittlesong/study-ubuntu/wiki/CentOS-User-and-Group)
+
 
 ## Shortcuts
 * `ctrl+shift+t`:在原窗口打开终端
