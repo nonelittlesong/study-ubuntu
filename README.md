@@ -17,7 +17,7 @@ Notes of ubuntu.
 
 ## Commands
 **ls与find**  
-ls使用通配符会显示完整路径  
+ls 路径名+通配符 会显示路径名  
 find得到完整路径名  
 
 **进程**  
