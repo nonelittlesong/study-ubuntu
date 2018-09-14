@@ -16,6 +16,9 @@ Notes of ubuntu.
 * `将窗体托向屏幕两侧实现分屏`
 
 ## Commands
+**ls与find**
+find得到完整路径名  
+
 **进程**  
 ```
 # 查看进程
