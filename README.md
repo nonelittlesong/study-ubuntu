@@ -16,6 +16,9 @@ Notes of ubuntu.
 * `将窗体托向屏幕两侧实现分屏`
 
 ## Commands
+**updatedb**  
+更新slocate  
+
 **dpkg -l**  
 >第一个字符为期望值,它包括:  
 >u 状态未知,这意味着软件包未安装,并且用户也未发出安装请求。  
