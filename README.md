@@ -87,3 +87,5 @@ $ locate filename
 
 **3、 the channel bionic partner is unknown**  
 用`sudo apt install flashplugin-installer`
+
+**4、 ffmpeg相关库找不到**  
