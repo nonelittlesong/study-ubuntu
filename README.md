@@ -84,3 +84,6 @@ $ locate filename
 >(2) General  
 >(3) Network Proxy  
 >(4) check up proxy  
+
+**3、 the channel bionic partner is unknown**  
+用`sudo apt install flashplugin-installer`
