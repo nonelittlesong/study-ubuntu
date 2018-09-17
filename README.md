@@ -5,7 +5,7 @@ Notes of ubuntu.
 * [git]()
 * [pip]()
 * [labelimg]()
-* [ip设置]()
+* [ip设置](https://github.com/nonelittlesong/study-ubuntu/wiki/ip%E8%AE%BE%E7%BD%AE)
 * [安装oh-my-zsh](https://github.com/nonelittlesong/study-ubuntu/wiki/install-oh-my-zsh)
 * [Shell](https://github.com/nonelittlesong/study-ubuntu/wiki/Shell)
 * [CentOS User and Group](https://github.com/nonelittlesong/study-ubuntu/wiki/CentOS-User-and-Group)
