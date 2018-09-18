@@ -9,5 +9,6 @@ $ sudo passwd root
 * install/remove language
 * keyboard input method system: fcitx
 * $ sudo apt-get install fcitx-googlepinyin
+* reboot
 
 ## java
