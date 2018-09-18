@@ -3,6 +3,10 @@
 ```
 $ sudo passwd root
 ```
+## vim
+```
+$ sudo apt install vim
+```
 ## input method
 * System Settings...
 * Language Support
@@ -14,5 +18,5 @@ $ sudo passwd root
 ## java
 * download [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * $ tar zxvf Downloads/XXX.tar.gz
-* * sss
-* * ddd
+* 配置环境
+  * 
