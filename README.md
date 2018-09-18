@@ -2,7 +2,7 @@
 Notes of ubuntu.
 ## wiki
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
-* [git]()
+* [git](https://github.com/nonelittlesong/study-ubuntu/wiki/git)
 * [pip]()
 * [labelimg]()
 * [ip设置](https://github.com/nonelittlesong/study-ubuntu/wiki/ip%E8%AE%BE%E7%BD%AE)
