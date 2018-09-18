@@ -12,3 +12,7 @@ $ sudo passwd root
 * reboot
 
 ## java
+* download [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* $ tar zxvf Downloads/XXX.tar.gz
+* * sss
+* * ddd
