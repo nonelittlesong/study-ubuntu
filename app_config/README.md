@@ -20,3 +20,5 @@ $ sudo apt install vim
 * $ tar zxvf Downloads/XXX.tar.gz
 * 配置环境
   * 
+  *
+*
