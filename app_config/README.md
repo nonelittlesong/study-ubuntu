@@ -25,5 +25,9 @@ $ sudo apt install vim
 * `source /etc/profile`
 * reboot
 
-##
+## Android Studio
+* 下载[android-studio](http://www.android-studio.org/)
+* 
 
+## OpenCV4Android
+* 下载[opencv sdk](https://opencv.org/releases.html)
