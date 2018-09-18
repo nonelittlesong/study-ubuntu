@@ -18,7 +18,7 @@ $ sudo apt install vim
 ## java
 * download [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * $ tar zxvf Downloads/XXX.tar.gz
-* 配置环境  
+* 配置环境
   * sfsf
   * sfsf
 
