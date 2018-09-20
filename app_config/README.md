@@ -29,7 +29,7 @@ $ sudo apt install vim
 
 ## Android Studio
 * 下载[android-studio](http://www.android-studio.org/)
-* 
+* `$ tar zxvf xxx.tar.gz`
 
 ## OpenCV4Android
 * 下载[opencv sdk](https://opencv.org/releases.html)
