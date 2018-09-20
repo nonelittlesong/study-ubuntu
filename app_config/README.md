@@ -24,6 +24,8 @@ $ sudo apt install vim
   * export PATH=$JAVA_HOME/bin:$PATH
 * `source /etc/profile`
 * reboot
+## Lantern
+[getlantern/download](https://github.com/getlantern/download/wiki)
 
 ## Android Studio
 * 下载[android-studio](http://www.android-studio.org/)
