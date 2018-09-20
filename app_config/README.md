@@ -25,7 +25,7 @@ $ sudo apt install vim
 * `source /etc/profile`
 * reboot
 ## Lantern
-[getlantern/download](https://github.com/getlantern/download/wiki)
+* [getlantern/download](https://github.com/getlantern/download/wiki)
 
 ## Android Studio
 * 下载[android-studio](http://www.android-studio.org/)
