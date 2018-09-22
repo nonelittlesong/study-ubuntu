@@ -4,9 +4,9 @@
 $ sudo passwd root
 ```
 ## vim
-```
-$ sudo apt install vim
-```
+* `$ sudo apt install vim`
+* [Lightest vimrc, while strong enough. 最轻的vim配置，却足够强！](https://github.com/Bilibili/vim-vide)
+
 ## input method
 * System Settings...
 * Language Support
