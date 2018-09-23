@@ -4,7 +4,7 @@ Notes of ubuntu.
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
 * [git](https://github.com/nonelittlesong/study-ubuntu/wiki/git)
 * [pip](https://github.com/nonelittlesong/study-ubuntu/wiki/pip)
-* [labelimg]()
+* [labelimg](https://github.com/nonelittlesong/study-ubuntu/wiki/LabelImg)
 * [ip设置](https://github.com/nonelittlesong/study-ubuntu/wiki/ip%E8%AE%BE%E7%BD%AE)
 * [安装oh-my-zsh](https://github.com/nonelittlesong/study-ubuntu/wiki/install-oh-my-zsh)
 * [Shell](https://github.com/nonelittlesong/study-ubuntu/wiki/Shell)
