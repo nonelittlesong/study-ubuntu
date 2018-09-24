@@ -19,6 +19,10 @@ $ sudo passwd root
 * `sudo vim /etc/default/grub`
 * 修改`GRUB_DEFAULT`
 
+或者
+* `sudo vim /boot/grub/grub.cfg`
+* 修改`set default`
+
 ## java
 * download [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * $ tar zxvf Downloads/XXX.tar.gz
