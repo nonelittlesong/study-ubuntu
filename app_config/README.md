@@ -16,10 +16,6 @@ $ sudo passwd root
 * reboot
 
 ## grub
-* `sudo vim /etc/default/grub`
-* 修改`GRUB_DEFAULT`
-
-或者
 * `sudo vim /boot/grub/grub.cfg`
 * 修改`set default`
 
