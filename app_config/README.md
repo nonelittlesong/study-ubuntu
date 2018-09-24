@@ -15,6 +15,10 @@ $ sudo passwd root
 * $ sudo apt-get install fcitx-googlepinyin
 * reboot
 
+## grub
+* `sudo vim /etc/default/grub`
+* 修改`GRUB_DEFAULT`
+
 ## java
 * download [jdk](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * $ tar zxvf Downloads/XXX.tar.gz
