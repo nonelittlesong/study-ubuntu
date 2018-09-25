@@ -60,7 +60,7 @@ $ zip -r target.zip files
 ```
 **rename file**  
 ```
-$ rm fromfilename tofilename
+$ mv fromfilename tofilename
 ```
 **卸载cmake**  
 ```
