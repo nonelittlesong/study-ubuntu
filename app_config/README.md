@@ -3,6 +3,12 @@
 ```
 $ sudo passwd root
 ```
+## git
+`sudo apt install git`  
+
+## pip
+https://github.com/nonelittlesong/study-ubuntu/wiki/pip  
+
 ## vim
 * `$ sudo apt install vim`
 * [Lightest vimrc, while strong enough. 最轻的vim配置，却足够强！](https://github.com/Bilibili/vim-vide)
