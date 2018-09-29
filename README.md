@@ -1,6 +1,6 @@
 # study-ubuntu
 Notes of ubuntu.
-## wiki
+*wiki*  
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
 * [git](https://github.com/nonelittlesong/study-ubuntu/wiki/git)
 * [pip](https://github.com/nonelittlesong/study-ubuntu/wiki/pip)
