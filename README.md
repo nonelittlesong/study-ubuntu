@@ -1,5 +1,5 @@
 # study-ubuntu
-Notes of ubuntu.  
+  
 *wiki*  
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
 * [git](https://github.com/nonelittlesong/study-ubuntu/wiki/git)
