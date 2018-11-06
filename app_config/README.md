@@ -43,3 +43,6 @@ https://github.com/nonelittlesong/study-ubuntu/wiki/pip
 
 ## OpenCV4Android
 * 下载[opencv sdk](https://opencv.org/releases.html)
+
+## Wine
+[Wine官网](https://www.winehq.org/)  
