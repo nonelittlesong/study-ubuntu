@@ -61,3 +61,9 @@ $ # 或者
 $ wine start install.msi
 ```
 [中文乱码](https://www.xuecaijie.com/linux/141.html)  
+
+## KchmViewer
+chm文档查看器  
+```
+$ sudo apt-get install kchmviewer
+```
