@@ -53,3 +53,10 @@ $ sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
 $ sudo apt-get update
 $ sudo apt-get install --install-recommends winehq-stable
 ```
+[ubuntu下Wine使用教程](https://blog.csdn.net/wangchangshuai0010/article/details/12057251)  
+安装.msi文件  
+```
+$ wine msiexec /i install.msi
+$ # 或者
+$ wine start install.msi
+```
