@@ -60,3 +60,4 @@ $ wine msiexec /i install.msi
 $ # 或者
 $ wine start install.msi
 ```
+[中文乱码](https://www.xuecaijie.com/linux/141.html)  
