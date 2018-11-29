@@ -1,4 +1,7 @@
 # easy to use ubuntu 16.04
+## 启动盘烧录工具
+https://github.com/pbatard/rufus  
+
 ## root
 ```
 $ sudo passwd root
