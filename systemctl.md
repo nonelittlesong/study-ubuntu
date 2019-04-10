@@ -1,6 +1,6 @@
 https://blog.csdn.net/qq_29663071/article/details/80814081  
 
-1. 服务文件
+1、 服务文件
 例如nginx的服务文件：  
 ```
 [Unit]
@@ -42,20 +42,20 @@ ExecStop： 指定单元停止时执行的命令或脚本。
 **\[Install]**  
 WantedBy: 单元被允许运行需要的弱依赖单元。  
 
-2. 重载服务
+2、 重载服务
 systemctl enable nginx.service 设置开机自启， 就会在 /etc/systemd/system/multi-user.target.wants/ 目录下新建一个 /usr/lib/systemd/system/nginx.service 文件的链接。  
 
-3. 操作服务
+3、 操作服务
 刚刚配置的服务需要让systemctl能识别，就必须刷新配置：  
 ```
 $ systemctl daemon-reload
 ```
-启动一个服务：systemctl start nginx.service
-关闭一个服务：systemctl stop postfix.service
-重启一个服务：systemctl restart nginx.service
-显示一个服务的状态：systemctl status postfix.service
-在开机时启用一个服务：systemctl enable nginx.service
-在开机时禁用一个服务：systemctl disable nginx.service
-查看服务是否开机启动：systemctl is-enabled nginx.service
-查看已启动的服务列表：systemctl list-unit-files|grep enabled
-查看启动失败的服务列表：systemctl --failed
+* 启动一个服务：systemctl start nginx.service  
+* 关闭一个服务：systemctl stop postfix.service  
+* 重启一个服务：systemctl restart nginx.service  
+* 显示一个服务的状态：systemctl status postfix.service  
+* 在开机时启用一个服务：systemctl enable nginx.service  
+* 在开机时禁用一个服务：systemctl disable nginx.service  
+* 查看服务是否开机启动：systemctl is-enabled nginx.service  
+* 查看已启动的服务列表：systemctl list-unit-files|grep enabled  
+* 查看启动失败的服务列表：systemctl --failed  
