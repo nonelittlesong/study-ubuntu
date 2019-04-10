@@ -1,6 +1,7 @@
 https://blog.csdn.net/qq_29663071/article/details/80814081  
 
-1. 创建服务文件
+1. 服务文件
+例如nginx的服务文件：  
 ```
 [Unit]
 Description=nginx - high performance web server
@@ -19,3 +20,4 @@ ExecStop=/bin/kill -s TERM $MAINPID
 [Install] 
 WantedBy=multi-user.target
 ```
+**\[Uint]**  
