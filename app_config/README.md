@@ -19,13 +19,14 @@ https://github.com/robbyrussell/oh-my-zsh
 * `$ sudo apt install vim`
 * [Lightest vimrc, while strong enough. 最轻的vim配置，却足够强！](https://github.com/Bilibili/vim-vide)
 
-## input method
+## [input method](https://blog.csdn.net/striker_v/article/details/51914637)
 * System Settings...
 * Language Support
 * install/remove language
 * keyboard input method system: fcitx
 * $ sudo apt-get install fcitx-googlepinyin
 * reboot
+* $ fcitx-configtool
 
 ## grub
 * `sudo vim /boot/grub/grub.cfg`
