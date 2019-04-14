@@ -26,7 +26,7 @@ https://github.com/robbyrussell/oh-my-zsh
 * keyboard input method system: fcitx
 * $ sudo apt-get install fcitx-googlepinyin
 * reboot
-* $ fcitx-configtool
+* 打开终端，输入`fcitx-configtool`。添加输入法，不勾选only Show Current Language,添加Google Pinyin。
 
 ## grub
 * `sudo vim /boot/grub/grub.cfg`
