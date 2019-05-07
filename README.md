@@ -11,13 +11,13 @@
 * [CentOS User and Group](https://github.com/nonelittlesong/study-ubuntu/wiki/CentOS-User-and-Group)
 
 
-## Shortcuts
+## 一、 Shortcuts
 * `ctrl+shift+t`:在原窗口打开终端
 * `将窗体托向屏幕两侧实现分屏`
 * `Ctrl+Super+D` 最小化所有窗口
 * `Super` 显示快捷键
 
-## Commands
+## 二、 Commands
 **updatedb**  
 更新slocate  
 
@@ -76,7 +76,7 @@ filename可以是文件名的一部分
 $ locate filename
 ```
 
-## Troubleshooting
+## 三、 Troubleshooting
 **1、 版本更新后输入法出现问题**  
 >（1） 打开设置  
 >（2） 点击Manager Installed Languages  
