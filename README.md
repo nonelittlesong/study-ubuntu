@@ -9,7 +9,7 @@
 * [安装oh-my-zsh](https://github.com/nonelittlesong/study-ubuntu/wiki/install-oh-my-zsh)
 * [Shell](https://github.com/nonelittlesong/study-ubuntu/wiki/Shell)
 * [CentOS User and Group](https://github.com/nonelittlesong/study-ubuntu/wiki/CentOS-User-and-Group)
-
+* [防火墙](https://github.com/nonelittlesong/study-ubuntu/wiki/Ubuntu16%E9%98%B2%E7%81%AB%E5%A2%99)
 
 ## 一、 Shortcuts
 * `ctrl+shift+t`:在原窗口打开终端
