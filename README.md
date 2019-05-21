@@ -18,6 +18,13 @@
 * `Super` 显示快捷键
 
 ## 二、 Commands
+**查看端口**  
+```sh
+lsof -i:端口号
+# 或者
+netstat -tunlp |grep 端口号
+```
+
 **updatedb**  
 更新slocate  
 
