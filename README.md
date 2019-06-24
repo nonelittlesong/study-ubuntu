@@ -18,6 +18,11 @@
 * `Super` 显示快捷键
 
 ## 二、 Commands
+#### sed
+```sh
+sed -i '1,$d' result.txt
+```
+
 **查看端口**  
 ```sh
 lsof -i:端口号
