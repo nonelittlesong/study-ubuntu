@@ -1,6 +1,6 @@
 >注： 变量名和等号之间不能有空格。  
 
-# 使用变量名
+# 一、 使用变量名
 ```sh
 your_name="song"
 echo $your_name
@@ -35,7 +35,7 @@ unset variable_name
 3. **shell变量** - shell变量是由shell程序设置的特殊变量。shell变量中有一部分是环境变量，有一部分是局部变量，这些变量保证了shell的正常运行
 
 
-# Shell字符串
+# 二、 Shell字符串
 ## 1、 单引号
 
 * 单引号里的任何字符都会原样输出，单引号字符串中的变量是无效的；
@@ -82,3 +82,70 @@ string="runoob is a great site"
 echo `expr index "$string" io`  # 输出 4
 ```
 
+
+# 三、 Shell数组
+## 1、 定义数组
+```sh
+array_name=(value0 value1 value2 value3)
+```
+或者
+```sh
+array_name=(
+value0
+value1
+value2
+value3
+)
+```
+还可以单独定义数组的各个分量：  
+```sh
+array_name[0]=value0
+array_name[1]=value1
+array_name[n]=valuen
+```
+可以不使用连续的下标，而且下标的范围没有限制。  
+
+## 2、 读取数组
+```sh
+valuen=${array_name[n]}
+```
+使用`@`获取数组中的所有元素：  
+```sh
+echo ${array_name[@]}
+```
+
+## 3、 长度
+```sh
+# 取得数组元素的个数
+length=${#array_name[@]}
+# 或者
+length=${#array_name[*]}
+# 取得数组单个元素的长度
+lengthn=${#array_name[n]}
+```
+
+
+# 四、 Shell注释
+## 1、 多行
+多行注释还可以使用以下格式：  
+```sh
+:<<EOF
+注释内容...
+注释内容...
+注释内容...
+EOF
+```
+EOF 也可以使用其他符号:  
+```sh
+:<<'
+注释内容...
+注释内容...
+注释内容...
+'
+
+:<<!
+注释内容...
+注释内容...
+注释内容...
+!
+```
