@@ -25,7 +25,13 @@ sed -i s/$a/$b/ filename
 ```
 
 # 空文件插入
-
+```sh
+if test -s $file; then
+    sed -i '1i {"id": '$id', "switch": '$switch', "result": '$result', "totalOK": '$totalOK', "totalNG": '$totalNG'}' $file
+else
+    echo "{\"id\": $id, \"switch\": $switch, \"result\": $result, \"totalOK\": $totalOK, \"totalNG\": $totalNG}" >> $file
+fi
+```
 
 
 # Examples
