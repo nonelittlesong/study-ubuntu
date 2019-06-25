@@ -11,13 +11,6 @@ sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 sed -i '1i {"id": '$id', "switch": '$switch', "result": '$result', "totalOK": '$totalOK', "totalNG": '$totalNG'}' $file
 ```
 
-
-
-# Examples
-## 1、 清除文件所有内容
-```sh
-sed -i '1,$d' result.txt
-```
 ```sh
 a="one"
 b="two"
@@ -29,6 +22,12 @@ sed -i "s/$a/$b/" filename
 sed -i ’s/’$a’/’$b’/’ filename 
 # 第四种：
 sed -i s/$a/$b/ filename
+```
+
+# Examples
+## 1、 清除文件所有内容
+```sh
+sed -i '1,$d' result.txt
 ```
 
 ## 2、 行首插入
