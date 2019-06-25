@@ -15,11 +15,11 @@ sed -i '1i {"id": '$id', "switch": '$switch', "result": '$result', "totalOK": '$
 a="one"
 b="two"
 # 第一种：
-eval sed -i ’s/$a/$b/’ filename
+eval sed -i 's/$a/$b/' filename
 # 第二种（推荐）：
 sed -i "s/$a/$b/" filename
 # 第三种：
-sed -i ’s/’$a’/’$b’/’ filename 
+sed -i 's/'$a'/'$b'/' filename 
 # 第四种：
 sed -i s/$a/$b/ filename
 ```
