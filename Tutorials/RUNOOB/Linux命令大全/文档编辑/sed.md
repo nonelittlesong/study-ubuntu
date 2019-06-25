@@ -34,3 +34,7 @@ sed -i '5a I append a line' result.txt
 ```sh
 sed -i '8,10a I append some lines' result.txt
 ```
+在多行前插入：  
+```sh
+sed -i '8,10i I insert some lines' result.txt
+```
