@@ -24,6 +24,10 @@ sed -i 's/'$a'/'$b'/' filename
 sed -i s/$a/$b/ filename
 ```
 
+# 空文件插入
+
+
+
 # Examples
 ## 1、 清除文件所有内容
 ```sh
