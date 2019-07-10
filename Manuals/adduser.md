@@ -10,5 +10,5 @@
 ## --group
 当 `--system` 和 `--group` 一起使用，将创建和用户同名同ID的组。  
 
-## no-create-home
+## --no-create-home
 不创建 home 目录。  
