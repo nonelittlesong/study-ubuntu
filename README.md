@@ -18,7 +18,7 @@
 * `Super` 显示快捷键
 
 ## 二、 Commands
-#### sed
+#### sed文件处理
 ```sh
 sed -i '1,$d' result.txt
 ```
