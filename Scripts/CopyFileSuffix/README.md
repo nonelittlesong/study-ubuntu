@@ -74,4 +74,6 @@ declare 和 typeset（弃用） 都是 Shell 内建命令，他们的用法相�
 
 
 # [提取文件名和目录名](https://blog.csdn.net/sinat_28442665/article/details/84796054)
+## 1、 [截取](http://c.biancheng.net/view/1120.html)
+
 
