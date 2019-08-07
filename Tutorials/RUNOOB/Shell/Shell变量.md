@@ -142,6 +142,8 @@ valuen=${array_name[n]}
 echo ${array_name[@]}
 ```
 
+`${array_name}` 相当于 `${array_name[0]}`
+
 ## 3、 长度
 ```sh
 # 取得数组元素的个数
