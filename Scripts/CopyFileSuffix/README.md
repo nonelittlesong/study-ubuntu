@@ -51,8 +51,8 @@ declare 和 typeset（弃用） 都是 Shell 内建命令，他们的用法相�
 `name=value` 等于号前后不能有空格。  
 
 
-
-
+## 3、 删除变量
+`unset name` - unset 不能删除只读变量。  
 
 # 函数
 
