@@ -18,6 +18,10 @@
 * `Super` 显示快捷键
 
 ## 二、 Commands
+#### [查看处理器和系统架构](https://blog.csdn.net/wykkunkun/article/details/79675675)
+```sh
+uname -a; uname -m; dpkg --print-architecture； getconf LONG_BIT; file /sbin/init;
+```
 #### sed文件处理
 ```sh
 sed -i '1,$d' result.txt
