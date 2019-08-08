@@ -1,4 +1,9 @@
 在某个根目录下，搜索指定后缀的文件进行拷贝。  
+* 递归复制所有的指定后缀的文件。
+* 保留原有的目录结构。
+
+<details>
+  <summary> 相关知识点 </summary>
 
 # [赋值](https://blog.csdn.net/fyh2003/article/details/7279029)
 ## 1、 shell变量类型
@@ -78,3 +83,4 @@ declare 和 typeset（弃用） 都是 Shell 内建命令，他们的用法相�
 
 ## 2、 basename & dirname
 
+</details>
