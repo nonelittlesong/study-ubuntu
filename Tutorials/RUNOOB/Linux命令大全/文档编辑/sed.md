@@ -42,8 +42,6 @@ else
 fi
 ```
 
-<details>
-  <summary>例子</summary>
 
 # 追加指定文件中的内容
 ```sh
@@ -94,5 +92,3 @@ sed -i '8,10a I append some lines' result.txt
 ```sh
 sed -i '8,10i I insert some lines' result.txt
 ```
-
-</details>
