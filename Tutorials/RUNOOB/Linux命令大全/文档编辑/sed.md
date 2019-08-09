@@ -2,9 +2,18 @@
 ```sh
 sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 ```
-#### 参数说明：
+#### OPTIONs：
 * -i\[SUFFIX], --in-place\[=SUFFIX]  
-  edit files in place (makes backup if SUFFIX supplied)  
+  直接在原文件中修改，如果提供SUFFIX，会生成备份。  
+  
+#### COMMANDs：
+* r filename  
+  追加从文件中读取的内容。  
+  
+#### Addresses：
+* /regexp/  
+  匹配所有满足正则式的行。  
+  
   
 # 在脚本文件中使用sed
 ```sh
@@ -33,8 +42,28 @@ else
 fi
 ```
 
+<details>
+  <summary>例子</summary>
 
-# Examples
+# 追加指定文件中的内容
+```sh
+#!/usr/bin/env sh          
+                            
+VIA_JS_FILE=via.js         
+TEMPLATE_HTML_FILE=index.html
+TARGET_HTML_FILE=via.html  
+GOOGLE_ANALYTICS_JS_FILE=via_google_analytics.js
+
+TMP_FILE=temp.html         
+
+# source: http://stackoverflow.com/questions/16811173/bash-inserting-one-files-content-into-another-file-after-the-pattern                     
+sed -e '/<!--AUTO_INSERT_VIA_JS_HERE-->/r./'$VIA_JS_FILE $TEMPLATE_HTML_FILE > $TMP_FILE 
+sed -e '/<!--AUTO_INSERT_GOOGLE_ANALYTICS_JS_HERE-->/r./'$GOOGLE_ANALYTICS_JS_FILE $TMP_FILE > $TARGET_HTML_FILE
+rm -f $TMP_FILE            
+echo 'Written html file to '$TARGET_HTML_FILE   
+```
+
+# 在原文件中插入和追加
 ## 1、 清除文件所有内容
 ```sh
 sed -i '1,$d' result.txt
@@ -65,3 +94,5 @@ sed -i '8,10a I append some lines' result.txt
 ```sh
 sed -i '8,10i I insert some lines' result.txt
 ```
+
+</details>
