@@ -1,3 +1,19 @@
+# config
+## 1、 查看信息
+```
+git config --list
+```
+## 2、 修改用户和邮箱
+```
+git config --global user.name "xxx"
+git config --global user.email "xxx"
+```
+**修改指定项目的：**  
+```
+git config user.name "xxx"
+git config user.email "xxx"
+```
+
 # .gitignore
 ```
 #               表示此为注释,将被Git忽略
