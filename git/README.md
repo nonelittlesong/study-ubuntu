@@ -60,3 +60,10 @@ fd1/*
 1. `git commit -m '提交说明'`
 1. `git remote add origin https://github.com/YourAccount/YourRepository.git` - origin是别名，可自定义。
 1. `git push -u origin master` - `-u` 是创建上传流，只要在初次提交时用。
+
+# 修改
+1. 修改代码
+2. `git add .`
+3. `git commit -m 'message'`
+4. `git pull 仓库别名 分支` - 多人协作要先 pull，再 merge 解决冲突。
+5. `git push 仓库别名 分支` - 默认 origin master。
