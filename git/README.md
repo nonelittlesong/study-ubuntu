@@ -14,6 +14,18 @@ git config user.name "xxx"
 git config user.email "xxx"
 ```
 
+## 3、 删除
+```
+git config --global --unset <key>
+git config --unset <key>
+```
+
+## 4、 编辑配置文件
+```
+git config --global --edit
+git config --edit
+```
+
 # .gitignore
 ```
 #               表示此为注释,将被Git忽略
