@@ -1,5 +1,6 @@
 # .gitignore
 ```
+#               表示此为注释,将被Git忽略
 *.a             表示忽略所有 .a 结尾的文件
 !lib.a          表示但lib.a除外
 /TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
