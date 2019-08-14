@@ -55,8 +55,8 @@ fd1/*
 # 上传已有项目
 1. 在 github 创建一个空项目
 1. cd 本地项目
-1. git init
-1. git add .
-1. git commit -m '提交说明'
-1. git remote add origin https://github.com/YourAccount/YourRepository.git - origin是别名，可自定义。
-1. git push -u origin master - `-u` 是创建上传流，只要在初次提交时用。
+1. `git init`
+1. `git add .`
+1. `git commit -m '提交说明'`
+1. `git remote add origin https://github.com/YourAccount/YourRepository.git` - origin是别名，可自定义。
+1. `git push -u origin master` - `-u` 是创建上传流，只要在初次提交时用。
