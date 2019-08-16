@@ -1,4 +1,4 @@
-# config
+# 一、 config
 ## 1、 查看信息
 ```
 git config --list
@@ -26,7 +26,7 @@ git config --global --edit
 git config --edit
 ```
 
-# .gitignore
+# 二、 .gitignore
 ```
 #               表示此为注释,将被Git忽略
 *.a             表示忽略所有 .a 结尾的文件
@@ -80,7 +80,7 @@ fd1/*
 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；注意要先对bin/的父目录使用!规则，使其不被排除。
 ```
 
-# 多个远程仓库
+# 三、 多个远程仓库
 ## 1、 第一种方式
 ### # 添加一个远程库，名字不是 origin
 ```
@@ -111,7 +111,7 @@ git push origin master:master
 git remote remove origin
 ```
 
-# 上传已有项目
+# 四、 上传已有项目
 1. 在 github 创建一个空项目
 1. cd 本地项目
 1. `git init`
@@ -120,7 +120,7 @@ git remote remove origin
 1. `git remote add origin https://github.com/YourAccount/YourRepository.git` - origin是别名，可自定义。
 1. `git push -u origin master` - `-u` 是创建上传流，只要在初次提交时用。
 
-# 修改
+# 五、 修改
 1. 修改代码
 2. `git add .`
 3. `git commit -m 'message'`
