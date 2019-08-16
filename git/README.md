@@ -80,6 +80,37 @@ fd1/*
 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；注意要先对bin/的父目录使用!规则，使其不被排除。
 ```
 
+# 多个远程仓库
+## 1、 第一种方式
+### # 添加一个远程库，名字不是 origin
+```
+git remote add repoName https://github.com/your-account/your-repository.git
+```
+### # 查看版本
+```
+git remote -v
+```
+### # pull & push
+```
+git pull repoName remotebranch:localbranch
+git push repoName localbranch:remotebranch
+```
+## 2、 第二种方式
+这样可以同时推送。  
+### \# 添加另一个远程库，昵称是 origin
+```
+git remote set-url --add origin git@gitlab.com:youraccount/your-repo.git
+```
+### \# 推送
+```
+git push origin master:master
+```
+
+### 3、 删除远程库
+```
+git remote remove origin
+```
+
 # 上传已有项目
 1. 在 github 创建一个空项目
 1. cd 本地项目
