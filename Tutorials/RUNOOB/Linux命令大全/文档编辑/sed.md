@@ -61,7 +61,7 @@ rm -f $TMP_FILE
 echo 'Written html file to '$TARGET_HTML_FILE   
 ```
 
-# 在原文件中插入和追加
+# 插入和追加
 ## 1、 清除文件所有内容
 ```sh
 sed -i '1,$d' result.txt
@@ -92,3 +92,13 @@ sed -i '8,10a I append some lines' result.txt
 ```sh
 sed -i '8,10i I insert some lines' result.txt
 ```
+
+# 替换
+```sh
+# 替换字符
+sed 'y/1234567890/ABCDEFGHIJ/' y_file > result_file
+sed -i 'y/1234567890/ABCDEFGHIJ/' y_file
+
+# 替换字符串
+sed 's/01/Ab/g' s_file > result_file
+sed -i 's/01/Ab/g' s_file
