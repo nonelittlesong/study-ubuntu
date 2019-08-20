@@ -113,7 +113,6 @@ git remote remove origin
 
 # 四、 上传已有项目
 1. 在 github 创建一个空项目
-1. cd 本地项目
 1. `git init`
 1. `git add .`
 1. `git commit -m '提交说明'`
@@ -121,8 +120,8 @@ git remote remove origin
 1. `git push -u origin master` - `-u` 是创建上传流，只要在初次提交时用。
 
 # 五、 修改
-1. 修改代码
-2. `git add .`
-3. `git commit -m 'message'`
-4. `git pull 仓库别名 分支` - 多人协作要先 pull，再 merge 解决冲突。
-5. `git push 仓库别名 分支` - 默认 origin master。
+
+1. `git add .`
+1. `git commit -m 'message'`
+1. `git pull 仓库别名 分支` - 多人协作要先 pull，再 merge 解决冲突。
+1. `git push 仓库别名 分支` - 默认 origin master。
