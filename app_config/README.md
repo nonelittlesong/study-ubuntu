@@ -18,6 +18,7 @@ https://github.com/robbyrussell/oh-my-zsh
 ## vim
 * `$ sudo apt install vim`
 * [bilibili vim-vide](https://github.com/Bilibili/vim-vide)
+* `vim +PlugClean! +PlugUpdate +qa`
 
 
 ## [input method](https://blog.csdn.net/striker_v/article/details/51914637)
