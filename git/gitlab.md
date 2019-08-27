@@ -1,5 +1,5 @@
 - [Gitlab Docs](https://docs.gitlab.com/)
-
+- [Install GitLab on Ubuntu 14.04 using Apache2](https://paulshipley.id.au/blog/coding-tips/install-gitlab-on-ubuntu-14-04-using-apache2/)
 
 # Start
 ## 1、依赖
