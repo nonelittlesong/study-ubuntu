@@ -4,15 +4,15 @@
 - [PostgreSQL](https://www.postgresql.org/) [Runoob](https://www.runoob.com/postgresql/postgresql-tutorial.html)
 
 
-# Start
-## 1、依赖
+# 一、 Start
+## 1、 依赖
 ```
 sudo apt update
 sudo apt install curl openssh-server ca-certificates
 sudo apt install postfix
 ```
 
-## 2、[清华 Gitlab 镜像](https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/)
+## 2、 [清华 Gitlab 镜像](https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/)
 首先信任 GitLab 的 GPG 公钥:  
 ```
 curl https://packages.gitlab.com/gpg.key 2> /dev/null | sudo apt-key add - &>/dev/null
