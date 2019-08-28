@@ -1,5 +1,6 @@
 - [Gitlab Docs](https://docs.gitlab.com/)
 - [Install GitLab on Ubuntu 14.04 using Apache2](https://paulshipley.id.au/blog/coding-tips/install-gitlab-on-ubuntu-14-04-using-apache2/)
+- [Apache Docs](http://httpd.apache.org/docs/)
 
 # Start
 ## 1、依赖
@@ -119,4 +120,5 @@ sudo ln -sf /etc/apache2/mods-available/proxy.load /etc/apache2/mods-enabled
 sudo ln -sf /etc/apache2/mods-available/proxy_http.load /etc/apache2/mods-enabled
 sudo ln -sf /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled
 systemctl restart apache2
+mv /var/www/html/index.html /var/www/html/index.html.bak
 ```
