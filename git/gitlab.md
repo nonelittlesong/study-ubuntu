@@ -25,6 +25,9 @@ sudo apt-get install gitlab-ce
 ```
 
 ## 3、 [使用非绑定 web 服务器](https://docs.gitlab.com/omnibus/settings/nginx.html#using-a-non-bundled-web-server)
+
+- https://stackoverflow.com/questions/25785903/gitlab-7-2-1-with-apache-server-instead-of-nginx
+
 `sudo vim /etc/gitlab/gitlab.rb`:  
 
 ```rb
