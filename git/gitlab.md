@@ -114,3 +114,9 @@ sudo vim /etc/apache2/sites-available/gitlab.conf
 
 </VirtualHost>
 ```
+```
+sudo ln -sf /etc/apache2/mods-available/proxy.load /etc/apache2/mods-enabled
+sudo ln -sf /etc/apache2/mods-available/proxy_http.load /etc/apache2/mods-enabled
+sudo ln -sf /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled
+systemctl restart apache2
+```
