@@ -1,6 +1,8 @@
 - [Gitlab Docs](https://docs.gitlab.com/)
 - [Install GitLab on Ubuntu 14.04 using Apache2](https://paulshipley.id.au/blog/coding-tips/install-gitlab-on-ubuntu-14-04-using-apache2/)
 - [Apache Docs](http://httpd.apache.org/docs/)
+- [PostgreSQL](https://www.postgresql.org/) [Runoob](https://www.runoob.com/postgresql/postgresql-tutorial.html)
+
 
 # Start
 ## 1、依赖
