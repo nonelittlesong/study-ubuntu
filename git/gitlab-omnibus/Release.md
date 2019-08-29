@@ -8,3 +8,6 @@ git push REMOTE_REPO_NAME REMOTE_BRANCH_NAME MY_TAG_NAME
 ```
 
 # 上传文件
+```
+curl --request POST --header "PRIVATE-TOKEN: <your_access_token>" --form "file=@/path/to/your/file" https://gitlab.example.com/api/v4/projects/1/uploads
+```
