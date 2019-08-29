@@ -37,3 +37,13 @@ git push gitlab master v1.5
 # 一次性推送所有标签
 git push gitlab master --tags
 ```
+
+# 删除标签
+本地：  
+```
+git tag -d v0.0.0
+```
+远程：  
+```
+git push origin master :refs/tags/v0.0.0
+```
