@@ -1,8 +1,10 @@
 # 端口占用
+查看被占用的端口号：  
 ```
-sudo vim /etc/gitlab/gitlab.rb
+netstat -tlnp | grep 端口号
 ```
-修改一下内容：  
+
+修改一下内容`sudo vim /etc/gitlab/gitlab.rb`：  
 ```rb
 grafana['http_port'] = 8086
 
