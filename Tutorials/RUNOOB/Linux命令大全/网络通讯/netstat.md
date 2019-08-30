@@ -22,3 +22,8 @@ netstat [-acCeFghilMnNoprstuvVwx][-A<网络类型>][--ip]
 ```
 netstat -a -p --unix
 ```
+
+## 2、 显示监听 8080 端口的进程：
+```
+sudo netstat -tlnp | grep 8080
+```
