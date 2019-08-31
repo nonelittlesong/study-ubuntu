@@ -1,3 +1,7 @@
+参考：  
+- https://github.com/junegunn/vim-plug  
+
+
 # study-ubuntu
   
 **wiki**  
