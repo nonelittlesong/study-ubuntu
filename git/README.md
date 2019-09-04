@@ -106,7 +106,7 @@ git remote set-url --add origin git@gitlab.com:youraccount/your-repo.git
 git push origin master:master
 ```
 
-### 3、 删除远程库
+## 3、 删除远程库
 ```
 git remote remove origin
 ```
