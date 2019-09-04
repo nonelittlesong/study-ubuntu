@@ -82,26 +82,26 @@ fd1/*
 
 # 三、 多个远程仓库
 ## 1、 第一种方式
-### # 添加一个远程库，名字不是 origin
+**添加一个远程库，名字不是 origin:**  
 ```
 git remote add repoName https://github.com/your-account/your-repository.git
 ```
-### # 查看版本
+**查看版本:**  
 ```
 git remote -v
 ```
-### # pull & push
+**pull & push:**  
 ```
 git pull repoName remotebranch:localbranch
 git push repoName localbranch:remotebranch
 ```
 ## 2、 第二种方式
 这样可以同时推送。  
-### \# 添加另一个远程库，昵称是 origin
+**添加另一个远程库，昵称是 origin:**  
 ```
 git remote set-url --add origin git@gitlab.com:youraccount/your-repo.git
 ```
-### \# 推送
+**推送:**  
 ```
 git push origin master:master
 ```
