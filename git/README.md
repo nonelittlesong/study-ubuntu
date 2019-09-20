@@ -114,11 +114,11 @@ git remote remove origin
 # 四、 上传已有项目
 ```
 # 在 github 创建一个空项目
-`git init`
-`git add .`
-`git commit -m '提交说明'`
-`git remote add origin https://github.com/YourAccount/YourRepository.git` # origin是别名，可自定义。
-`git push -u origin master` # -u 是创建默认上传流，只要在初次提交时用。
+git init
+git add .
+git commit -m '提交说明'
+git remote add origin https://github.com/YourAccount/YourRepository.git  # origin是别名，可自定义。
+git push -u origin master                                                # -u 是创建默认上传流，只要在初次提交时用。
 ```
 
 # 五、 修改
