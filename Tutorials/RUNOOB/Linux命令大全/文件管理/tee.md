@@ -17,4 +17,7 @@ echo '用 tee 重定向' | tee -a tailFile
 echo '用 tee 重定向' | tee -a tailFile tailFile2
 # 输出到 tailFile, tailFile2
 echo '用 tee 重定向' | tee -a tailFile >> tailFile2
+
+# 不用管道
+$tee file1 > file2 < example.txt
 ```
