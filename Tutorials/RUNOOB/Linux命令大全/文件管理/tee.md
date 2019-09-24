@@ -7,3 +7,14 @@ tee [-ai] [文件...]
 
 options：  
 - `-a` 或 `--append` - 追加。  
+
+## 例子
+### 用 tee 重定向
+```
+# 输出到 stdout, tailFile
+echo '用 tee 重定向' | tee -a tailFile
+# 输出到 stdout, tailFile, tailFile2
+echo '用 tee 重定向' | tee -a tailFile tailFile2
+# 输出到 tailFile, tailFile2
+echo '用 tee 重定向' | tee -a tailFile >> tailFile2
+```
