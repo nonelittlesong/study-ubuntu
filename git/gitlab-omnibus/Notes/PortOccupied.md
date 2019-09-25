@@ -12,6 +12,6 @@ unicorn['port'] = 8081
 ```
 重启：  
 ```
-sudo gitlab-ctl regonfigure
+sudo gitlab-ctl reconfigure
 sudo gitlab-ctl restart
 ```
