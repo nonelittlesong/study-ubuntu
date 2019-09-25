@@ -48,7 +48,7 @@ gitlab_rails['trusted_proxies'] = [ '192.168.1.0/24', '192.168.2.1', '2001:0db8:
 gitlab_workhorse['listen_network'] = "tcp"
 gitlab_workhorse['listen_addr'] = "127.0.0.1:8181"
 ```
-5、 [Download the right web server configs](https://gitlab.com/gitlab-org/gitlab-recipes/tree/master/web-server)  
+[Download the right web server configs](https://gitlab.com/gitlab-org/gitlab-recipes/tree/master/web-server)  
 ```
 sudo rm /etc/apache2/sites-enabled/000-default.conf
 sudo vim /etc/apache2/sites-available/gitlab.conf
