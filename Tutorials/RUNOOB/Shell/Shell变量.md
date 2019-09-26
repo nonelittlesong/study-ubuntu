@@ -44,6 +44,8 @@ unset variable_name
 名称大写。  
 部分由系统设定，部分由用户定义。  
 
+- $PWD - print working direcotry，当前工作目录。
+
 ### \# 位置变量
 命令行参数位置决定的变量。  
 *$0 - 命令名称
