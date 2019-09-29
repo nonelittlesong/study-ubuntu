@@ -4,3 +4,10 @@ gnome-terminal -x bash -c "sh ./run.sh;exec bash;"
 ```
 >`exec bash` 使终端保持开启状态。  
 
+gnome-terminal:  
+
+- `-x, --execute` - 
+
+bash:  
+
+- `-c` - 
