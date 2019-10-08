@@ -51,7 +51,7 @@ unset variable_name
 *$0 - 命令名称
 *$n - 第n个参数
 
-### \# 预定义的特殊变量
+### \# [预定义的特殊变量](https://github.com/nonelittlesong/study-ubuntu/blob/master/Tutorials/RUNOOB/Shell/%E5%8F%82%E6%95%B0.md)
 | 变量名 | 描述 |
 | --- | --- |
 | $# | 位置参数个数 |
