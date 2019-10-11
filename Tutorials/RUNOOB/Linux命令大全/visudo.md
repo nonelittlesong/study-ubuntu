@@ -7,5 +7,5 @@
 ## 例子
 ```
 ubuntu ALL=(ALL) NOPASSWD: /home/ubuntu/jenkins/train.sh
-ubuntu ALL=(ALL) NOPASSWD: /home/ubuntu/jenkins/train.sh
+ubuntu ALL=(ALL:ALL) NOPASSWD: /home/ubuntu/jenkins/train.sh
 ```
