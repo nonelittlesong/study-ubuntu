@@ -9,3 +9,5 @@
 ubuntu ALL=(ALL) NOPASSWD: /home/ubuntu/jenkins/train.sh
 ubuntu ALL=(ALL:ALL) NOPASSWD: /home/ubuntu/jenkins/train.sh
 ```
+
+>**注意：**  后面的指令会覆盖前面的指令！！  
