@@ -8,3 +8,4 @@
 $ sudo apt install openvpn
 $ openvpn --version
 ```
+将服务器的配置文件（.ovpn）复制到客户端 `/etc/openvpn` 中。  
