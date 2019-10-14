@@ -3,6 +3,8 @@
 - https://github.com/hwdsl2/setup-ipsec-vpn  
 - https://github.com/Nyr/openvpn-install  
 
+>ubuntu16 的 openvpn 版本是2.3！！  
+
 ## OpenVPN 客户端
 ```sh
 $ sudo apt install openvpn
