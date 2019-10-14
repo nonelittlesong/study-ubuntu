@@ -14,7 +14,9 @@ $ openvpn --version
 
 
 ## Brook
-更新：  
+- https://github.com/txthinking/brook  
+
+更新 vps 系统：  
 ```sh
 yum update
 ```
