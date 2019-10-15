@@ -45,3 +45,11 @@ sysctl net.ipv4.tcp_available_congestion_control   # 返回 net.ipv4.tcp_availab
 
 lsmod | grep bbr                                   # 返回 形如 tcp_bbr                16384  1
 ```
+
+### 自动化脚本
+```sh
+wget –no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+./bbr.sh
+```
+
