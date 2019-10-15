@@ -11,11 +11,11 @@ $ openvpn --version
 ```
 将服务器的配置文件（.ovpn）复制到客户端 `/etc/openvpn` 中。  
 
-
-## Brook
-- https://github.com/txthinking/brook  
-
-更新 vps 系统：  
+## IPsec
 ```sh
-yum update
+wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sh vpnsetup.sh
+
+# 更新
+ipsec --version
+wget https://git.io/vpnupgrade-centos -O vpnupgrade.sh
 ```
