@@ -1,4 +1,4 @@
-## centos 手动 bbr
+## centos
 
 ```sh
 yum update
