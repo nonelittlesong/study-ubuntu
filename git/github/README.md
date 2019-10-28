@@ -13,6 +13,7 @@
 192.30.253.112 github.com
 199.232.5.194 github.global.ssl.fastly.net
 185.199.108.154 help.github.com
+140.82.114.20 gist.github.com
 ```
 
 重启网络 `sudo systemctl restart networking.service`。  
