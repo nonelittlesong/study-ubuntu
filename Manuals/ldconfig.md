@@ -1,0 +1,6 @@
+配置动态连接器的运行时绑定。  
+```
+/sbin/ldconfig [ -nNvXV ] [ -f conf ] [ -C cache ] [ -r root ] directory ...
+/sbin/ldconfig -l [ -v ] library ...
+/sbin/ldconfig -p
+```
