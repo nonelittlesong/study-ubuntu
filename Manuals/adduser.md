@@ -8,10 +8,10 @@
 
 相当于：  
 ```sh
-$ sudo useradd -d /home/test -m -s/bin/bash \
-  -c Fullname,Phone,OtherInfo test
+sudo useradd -d /home/test -m -s/bin/bash \
+-c Fullname,Phone,OtherInfo test
 
-$ passwd test
+passwd test
 ```
 
 ### 选项
