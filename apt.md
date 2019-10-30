@@ -12,5 +12,6 @@
 | apt show | apt-cache show | 显示安装细节 |
 | apt list | - | 列出包含条件的包（已安装，可升级） |
 | apt edit-sources | - | 编辑源列表 |
+| | apt-cache madison | 列出包的版本 |
 
 - apt 可以看作 `apt-get` 和 `apt-cache` 的子集。
