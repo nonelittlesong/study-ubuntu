@@ -1,4 +1,4 @@
-# apt & apt-get
+## apt & apt-get
 
 | apt | apt-get | 功能 |
 | --- | --- | --- |
@@ -15,3 +15,17 @@
 | | apt-cache madison | 列出包的版本 |
 
 - apt 可以看作 `apt-get` 和 `apt-cache` 的子集。
+
+## apt-mark
+显示、设定和取消软件包的一些设置。  
+
+语法：  
+```
+apt-mark {-f=filename | {auto | manual} pkg...  | {showauto | showmanual} [pkg...] } | {-v | --version} |
+         {-h | --help}
+
+apt-mark {hold | unhold | install | remove | purge} pkg...  |
+         {showhold | showinstall | showremove | showpurge} [pkg...]
+```
+
+- `hold` - 阻止软件包自动安装、更新和删除。  
