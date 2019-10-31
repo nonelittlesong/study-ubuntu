@@ -1,5 +1,9 @@
 四个官方库： Main, Universe, Restricted 和 Multiverse。  
 
+参考：  
+
+- [/var/lib/apt/lists is huge](https://askubuntu.com/questions/179955/var-lib-apt-lists-is-huge)  
+
 # 删除
 ## 1、 删除 repository
 删掉不需要的软件。  
