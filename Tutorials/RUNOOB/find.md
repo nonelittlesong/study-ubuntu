@@ -1,5 +1,10 @@
-# 语法
+## 语法
 ```sh
 find path -option [-print] [-exec -ok command] {} \;
 ```
-#### 参数说明：
+
+## 实例
+查找文件（默认递归）  
+```
+find / -name '*.h'
+```
