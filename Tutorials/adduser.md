@@ -45,3 +45,10 @@ GROUP | --gid ID] [--disabled-password] [--disabled-login] [--gecos GECOS] user
 - `-e, --expiredate EXPIRE_DATE` - 格式 YYYY-MM-DD。用户到期禁用。EXPIRE_DATE 为空会使‘到期时间’无效。  
 - `-f, --inactive INACTIVE` - 
 - `-g, --gid GROUP` - 
+
+
+## `gpasswd`
+将用户从组删除：  
+```sh
+gpasswd -d userName groupName
+```
