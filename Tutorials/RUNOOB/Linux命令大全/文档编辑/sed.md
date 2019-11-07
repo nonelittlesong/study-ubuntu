@@ -94,6 +94,9 @@ sed -i '8,10i I insert some lines' result.txt
 ```
 
 # 替换
+>**注意：**  
+>使用 `：` 解决斜杠 `/` 的问题。  
+
 ```sh
 # 替换字符
 sed 'y/1234567890/ABCDEFGHIJ/' y_file > result_file
