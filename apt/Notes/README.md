@@ -22,3 +22,6 @@
 3. 更新  
    `sudo apt-get update`  
    
+参考：  
+
+- [apt-get update更新源时，出现“Hash Sum mismatch”问题](https://www.cnblogs.com/kevingrace/p/6083854.html)  
