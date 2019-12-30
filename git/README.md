@@ -1,3 +1,7 @@
+
+- 克隆指定分支 `git clone -b v2 https://github.com/ant-design/ant-design-pro.git`  
+
+
 # 一、 config
 ## 1、 查看信息
 ```
