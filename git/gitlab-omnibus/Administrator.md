@@ -43,3 +43,13 @@ sudo gitlab-rake gitlab:import:all_users_to_all_groups
 
 ## 三、 重置管理员密码
 
+```
+sudo gitlab-rails console production
+user = User.where(id:1).first
+user.password='123456'
+user.save!
+quit
+sudo gitlab-ctl reconfigure
+sudo gitlab-ctl restart
+```
+
