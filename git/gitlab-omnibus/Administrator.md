@@ -50,6 +50,5 @@ user.password='123456'
 user.save!
 quit
 sudo gitlab-ctl reconfigure
-sudo gitlab-ctl restart
 ```
 
