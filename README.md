@@ -112,3 +112,13 @@ $ locate filename
 
 **3、 the channel bionic partner is unknown**  
 用`sudo apt install flashplugin-installer`
+
+**4、 sudo: unable to resolve host ubuntu: Connection timed out**  
+原因：  
+```
+这种问题是由于：在系统盘 “etc “文件夹下面的hosts里面的主机名(localhost)和hostname里面的主机名不一致导致的。
+```
+解决办法：  
+```
+# 编辑 /etc/hosts 和 /etc/hostname，使主机名一致
+```
