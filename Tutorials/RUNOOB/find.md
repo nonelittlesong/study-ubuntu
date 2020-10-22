@@ -8,3 +8,8 @@ find path -option [-print] [-exec -ok command] {} \;
 ```
 find / -name '*.h'
 ```
+
+查找全名
+```
+find . -wholename './*/20*' -type d
+```
