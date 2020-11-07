@@ -1,7 +1,7 @@
-## Github 域名被劫持
+## Github 无法访问
 首先 `ping github.com`，查看 ip 地址是否正确。  
 
-登录 [ipaddress.com](https://www.ipaddress.com/)：  
+登录 [ipaddress.com](https://www.ipaddress.com/) 或 https://site.ip138.com/：  
 查看的真实 ip：  
 [github.com](https://github.com.ipaddress.com/)  
 [github.global.ssl.fastly.net](https://fastly.net.ipaddress.com/github.global.ssl.fastly.net)  
