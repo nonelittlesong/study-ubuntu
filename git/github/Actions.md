@@ -2,6 +2,8 @@
 <details>
   <summary>Resources</summary>
   
+  - [Github Actions 官方文档](https://docs.github.com/en/free-pro-team@latest/actions)  
+  - [YAML 官网](https://yaml.org/)  
   - [Github Actions | 阮一峰](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)  
 </details>
 <details>
