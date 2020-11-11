@@ -1,7 +1,11 @@
-## Hash Sum Mismatch
+
+## 一、 Troubleshootings
+
+### 1.1 Hash Sum Mismatch
 参考：  
 - [apt-get update更新源时，出现“Hash Sum mismatch”问题](https://www.cnblogs.com/kevingrace/p/6083854.html)  
 
+系统环境：  
 - Ubuntu 16.04
 - NVIDIA-SMI 390.30
 - Date 11/11/2019
@@ -28,3 +32,8 @@
 ! 经测试，不能在所有情况下解决问题
 ```
 
+### 1.2 Public Key is not Available
+```diff
+- Err:11 https://download.sublimetext.com apt/stable/ InRelease                                                          
+-   The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F57D4F59BD3DF454
+```
