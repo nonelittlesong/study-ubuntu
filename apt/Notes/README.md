@@ -33,7 +33,21 @@
 ```
 
 ### 1.2 Public Key is not Available
+参考：  
+- [Public Key is not available | stackoverflow](https://stackoverflow.com/questions/39719830/public-key-is-not-available)  
+- https://blog.csdn.net/smileindark/article/details/105464928  
+
 ```diff
 - Err:11 https://download.sublimetext.com apt/stable/ InRelease                                                          
 -   The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F57D4F59BD3DF454
+```
+
+解决：  
+```sh
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <key number> # (这个公钥根据提示来写的)
+# 或者
+$ sudo gpg --keyserver keyserver.ubuntu.com --recv <key number>
+$ sudo gpg --export --armor <key number> | sudo apt-key add -
+
+$ sudo apt-get update
 ```
