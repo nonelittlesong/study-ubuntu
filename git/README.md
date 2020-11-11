@@ -30,11 +30,13 @@ git config --global --edit
 git config --edit
 ```
 
-# 三、 多个远程仓库
+# 二、 多个远程仓库
 ## 1、 第一种方式
 **添加一个远程库，名字不是 origin:**  
 ```
 git remote add repoName https://github.com/your-account/your-repository.git
+# 修改
+# $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 ```
 **查看版本:**  
 ```
