@@ -51,3 +51,17 @@ $ sudo gpg --export --armor <key number> | sudo apt-key add -
 
 $ sudo apt-get update
 ```
+
+### 1.3 Key Expired
+参考：  
+- https://askubuntu.com/questions/650032/gpg-errorthe-following-signatures-were-invalid-keyexpired  
+
+问题：  
+```diff
+- The following signatures were invalid: KEYEXPIRED
+```
+
+解决：  
+```sh
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --refresh-keys
+```
