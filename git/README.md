@@ -63,7 +63,7 @@ git push origin master:master
 git remote remove origin
 ```
 
-# 四、 上传已有项目
+# 三、 上传已有项目
 ```
 # 在 github 创建一个空项目
 git init
@@ -73,9 +73,9 @@ git remote add origin https://github.com/YourAccount/YourRepository.git  # origi
 git push -u origin master                                                # -u 是创建默认上传流，只要在初次提交时用。
 ```
 
-# 五、 修改
+# 四、 修改
 
 1. `git add .`
-1. `git commit -m 'message'`
+1. `git commit -m 'message'` - `-a` 选项可跳过 `git add`。  
 1. `git pull 仓库别名 分支` - 多人协作要先 pull，再 merge 解决冲突。
 1. `git push 仓库别名 分支` - 默认 origin master。
