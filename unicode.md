@@ -5,6 +5,7 @@
 <summary>参考：</summary>
 
 - [如何输入一个 Unicode 字符 | ubuntuqa](https://ubuntuqa.com/article/602.html)  
+- [Box Drawing](https://unicode-table.com/en/blocks/box-drawing/)  
 </details>
 
 ## 如何输入
