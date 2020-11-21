@@ -3,6 +3,8 @@
 <details>
 <summary>参考</summary>
 
+- [git flow | github](https://github.com/nvie/gitflow/tree/develop)  
+- [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
 - [Git 分支管理策略 | 阮一峰](http://www.ruanyifeng.com/blog/2012/07/git.html)  
 </details>
 
