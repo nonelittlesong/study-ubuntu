@@ -26,8 +26,7 @@ git checkout master
 git merge --no-ff develop
 ```
 
->**`--no-ff`**  
->默认情况下，Git 执行「快进式合并」(fast-forward merge)，会直接将 Master 分支指向 Develop 分支。  
+![git-merge.png](https://raw.githubusercontent.com/nonelittlesong/resources/master/images/gitlab/git-merge.png)  
 
 
 ## 三、临时性分支
