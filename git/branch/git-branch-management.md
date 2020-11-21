@@ -38,7 +38,7 @@ git merge --no-ff develop
 
 使用完后，应该删除使代码库的常设分支始终只有 Master 和 Develop。  
 
-## 四、功能分支
+### 3.1 功能分支
 
 为了开发某种特定的功能。  
 
@@ -52,4 +52,50 @@ $ git merge --no-ff feature-x
 $ git branch -d feature-x
 ```
 
-## 五、预发布分支
+### 3.2 预发布分支
+正式版本发布前，需要一个预发布版本进行测试。  
+预发布分支是从 Develop 分支上面分出来的。  
+命名可采用 `release-x` 的形式。  
+
+```sh
+# 创建一个预发布分支
+$ git checkout -b release-1.2 develop
+
+# 确认没有问题后，合并到 master 分支
+$ git checkout master
+$ git merge --no-ff release-1.2
+# 对合并生成的新节点，做一个标签
+$ git tag -a v1.2.0
+
+# 再合并到 develop 分支
+$ git checkout develop
+$ git merge --no-ff release-1.2
+
+# 最后，删除预发布分支
+$ git branch -d release-1.2
+```
+
+### 3.3 修补 bug 分支
+正式版本发布后，难免出现 bug。需要创建一个分支，进行修复。  
+**修补 bug 分支是从 Master 分支上面分出来的。** 修补结束以后，再合并进 Master 和 Develop 分支。  
+命名采用 `fixbug-*` 的形式。  
+
+![fix-bug-flow](https://github.com/nonelittlesong/resources/blob/master/images/gitlab/git-fix-bug.png)  
+
+
+```sh
+# 创建一个修补 bug 的分支
+$ git checkout -b fixbug-0.1 master
+
+# 修补结束后，合并到 master 分支
+$ git checkout master
+$ git merge --no-ff fixbug-0.1
+$ git tag -a 0.1.1
+
+# 再合并到 develop 分支
+$ git checkout develop
+$ git merge --no-ff fixbug-0.1
+
+# 最后，删除 fixbug 分支
+$ git branch -d fixbug-0.1
+```
