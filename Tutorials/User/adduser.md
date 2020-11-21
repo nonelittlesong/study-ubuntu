@@ -33,7 +33,7 @@ GROUP | --gid ID] [--disabled-password] [--disabled-login] [--gecos GECOS] user
 - `--add_extra_groups` - 把新用户添加到额外的组中。  
 
 
-## `usermod`
+## usermod
 更改用户。  
 
 ### 语法
@@ -47,7 +47,7 @@ GROUP | --gid ID] [--disabled-password] [--disabled-login] [--gecos GECOS] user
 - `-g, --gid GROUP` - 
 
 
-## `gpasswd`
+## gpasswd
 将用户从组删除：  
 ```sh
 gpasswd -d userName groupName
