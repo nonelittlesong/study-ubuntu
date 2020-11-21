@@ -1,7 +1,7 @@
-# `adduser`
+# adduser
 - [useradd vs adduser](https://linuxhandbook.com/useradd-vs-adduser/)
 
-## `adduser`
+## adduser
 默认创建： 用户、和用户同名的组、家目录。  
 复制 `/etc/skel` 中的文件到家目录。  
 提示设置密码。  
