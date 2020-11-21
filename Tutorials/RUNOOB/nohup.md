@@ -16,3 +16,4 @@
 参考：  
 
 - [nohup和&后台运行，进程查看及终止](https://www.cnblogs.com/baby123/p/6477429.html)
+- [ssh 连接 linux 服务器中断后，如何让命令继续在服务器运行](https://blog.csdn.net/darren817/article/details/79807871)
