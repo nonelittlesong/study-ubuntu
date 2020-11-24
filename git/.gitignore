@@ -57,7 +57,7 @@ fd1/*
 #         删除所有项 git rm -r --cached .
 #                  git add .
 #                  git commit -m 'Remove ignored files'
-#    注意：其他用户在 pull 的时候，会删除忽略的文件。  
+#    注意：其他用户在 pull 的时候，会删除忽略的文件。（可能每个用户都要执行上边的操作）
 
 
                   
