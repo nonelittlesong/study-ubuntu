@@ -1,10 +1,22 @@
-参考：  
-- https://blog.csdn.net/mynameislinduan/article/details/82147965  
-- https://blog.csdn.net/wy01272454/article/details/72846365  
-- [git pull --rebase | 简书](https://www.jianshu.com/p/dc367c8dca8e)  
+# Push 和 Pull
 
+<details>
+  <summary>References</summary>
+  
+  - https://blog.csdn.net/mynameislinduan/article/details/82147965  
+  - https://blog.csdn.net/wy01272454/article/details/72846365  
+  - [git pull --rebase | 简书](https://www.jianshu.com/p/dc367c8dca8e)  
+</details>
 
-## 一、 git pull --rebase
+<details>
+  <summary>Table of Contents</summary>
+  
+  - [--rebase](#一git-pull---rebase)
+  - [--all](#二Push-Pull-所有分支)
+
+</details>
+
+## 一、git pull --rebase
 ### 1.1 git pull  
 ```
 git pull = git fetch + git merge FETCH_HEAD 
@@ -36,3 +48,24 @@ merge 操作遇到冲突的时候，当前 merge 不能继续进行下去。手�
 
 而 rebase 操作的话，会中断 rebase, 同时会提示去解决冲突。  
 解决冲突后，将修改 add 后执行 `git rebase –continue` 继续操作，或者 `git rebase –skip` 忽略冲突。  
+
+## 二、Push Pull 所有分支
+
+<details>
+  <summary>References</summary>
+  
+  - [Set up git to pull and push all branches | stackoverflow ](https://stackoverflow.com/questions/1914579/set-up-git-to-pull-and-push-all-branches)
+  - [Push local Git repo to new remote including all branches and tags | stackoverflow](https://stackoverflow.com/questions/6865302/push-local-git-repo-to-new-remote-including-all-branches-and-tags)
+
+</details>
+
+```
+# 推送所有分支
+>$ git push REMOTE '*:*'
+>$ git push REMOTE --all
+>$ git push --all origin
+
+# 拉取所有分支
+>$ git fetch --all
+>$ git pull --all
+```
