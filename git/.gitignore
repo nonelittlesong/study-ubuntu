@@ -48,3 +48,14 @@ fd1/*
 !/fw/bin/
 !/fw/sf/
 # 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；注意要先对bin/的父目录使用!规则，使其不被排除。
+
+
+# 补充说明
+# 1. 配置不生效
+#    原因：可能是因为在 git 库中已经存在这个文件。在之前的 push 中提交过该文件，git 将继续跟踪任何已经跟踪的文件。
+#    解决：从索引中删除 git rm --cached <file>
+#         删除所有项 git rm -r --cached .
+#                  git add .
+#                  git commit -m 'Remove ignored files'
+
+                  
