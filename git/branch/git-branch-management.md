@@ -6,6 +6,8 @@
 - [git flow | github](https://github.com/nvie/gitflow/tree/develop)  
 - [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
 - [Git 分支管理策略 | 阮一峰](http://www.ruanyifeng.com/blog/2012/07/git.html)  
+- [Git 在团队中的最佳实践--如何正确使用 Git Flow](https://www.cnblogs.com/cnblogsfans/p/5075073.html)
+
 </details>
 
 ## 一、主分支 Master
