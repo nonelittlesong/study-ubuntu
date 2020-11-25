@@ -7,6 +7,7 @@
 git tag
 git tag -l 'v1.4.2.*'
 git tag --list 'v1.4.2.*'
+git show v1.4.2.1
 ```
 
 ## 添加标签
