@@ -1,4 +1,4 @@
-# Push 和 Pull
+# Push 和 Pull 和 fetch
 
 <details>
   <summary>References</summary>
@@ -21,10 +21,6 @@
 - [pull 和 fetch 的区别](https://blog.csdn.net/hudashi/article/details/7664457)
 
 ### 1.1 git pull --rebase
-
-```diff
-! 没有解释到位，误信！
-```
 
 #### 1.1.1 git pull  
 
@@ -92,3 +88,45 @@ merge 操作遇到冲突的时候，当前 merge 不能继续进行下去。手�
 **git push --force 的安全问题**：当我们向远端推送本地分支的提交时，如果其他人在相同的分支推送了新的提交，`--force` 会删除他们的提交！  
 
 `git push --force-with-lease` 在有其他人新的提交时，会拒绝推送，让操作安全一些。  
+
+## 三、Fetch
+
+fetch 常和 merge 一起用，git fetch + git merge == git pull。  
+
+fetch 下来用 `git diff <reponame>/<branchname>` 查看所处分支与 `<reponame>/<branchname>` 的区别
+
+## 3.1 FETCH_HEAD 概念
+
+查看 FETCH_HEAD 内容：  
+```
+$ cat .git/FETCH_HEAD 
+7c8ca4436afba53f99d3ed37132cec99b0927fda                branch 'master' of https://github.com/nonelittlesong/my-via
+761e44832c39dfcf95526a9aa398c2fdf37bcdfa        not-for-merge   branch 'dependabot/npm_and_yarn/electron-7.2.4' of https://github.com/nonelittlesong/my-via
+2ae2363c1e3e03cba9af8b8fc4feccbedd119186        not-for-merge   branch 'develop' of https://github.com/nonelittlesong/my-via
+```
+第一列，commit id；  
+第二列，是否是当前 FETCH_HEAD 将要合并的；  
+第三列，分支的远程 git库路径
+
+## 3.2 用法
+
+- **git fetch**  
+  指令作用：  
+  1. 创建并更新**本地远程分支**。即创建并更新 origin/xxx 分支，拉取代码到 origin/xxx 分支上；  
+  2. 在 FETCH_HEAD 中设定「当前分支 - origin/当前分支」对应，如直接到时候 git merge 就可以将 origin/abc 合并到 abc 分支上。  
+
+- **git fetch \<reponame>**  
+  指定要 fetch 的 remote  
+
+- **git fetch \<reopname> \<branchname>**  
+  附加效果：用来测试远程主机的远程分支 `branchname` 是否存在, 如果存在, 返回 0, 如果不存在, 返回128, 抛出一个异常.  
+
+- **git fetch origin branch1:branch2**  
+  首先执行上面的 fetch 操作，  
+  使用远程 branch1 分支在本地创建 branch2(但不会切换到该分支)，  
+  如果本地不存在 branch2 分支, 则会自动创建一个新的 branch2 分支，  
+  如果本地存在 branch2 分支, 并且是 `fast forward`，则自动合并两个分支，否则, 会阻止以上操作。  
+  
+- **git fetch origin :branch2**  
+  等价于：git fetch origin master:branch2  
+  
