@@ -1,0 +1,18 @@
+# https://www.git-scm.com/docs/gitattributes
+# 对每个路径定义属性
+
+# 每一行的语法：
+# pattern attr1 attr2
+# Patterns that begin with a double quote are quoted in C style(末尾没有 '\0'？). 
+
+# 属性值：
+# Set — 只列出属性名
+# Unset — 属性名带前缀 `-`
+# Set to a value — 属性名后跟着 `=` 和 value
+# Unspecified — 路径没有匹配的 pattern
+
+# pattern 语法和 .gitignore 中的一样，除了以下几点：
+# - 否定匹配模式
+# - 目录是不递归的，`path/` 没有意义，应使用 `path/**`
+
+
