@@ -5,7 +5,7 @@
 - [/var/lib/apt/lists is huge](https://askubuntu.com/questions/179955/var-lib-apt-lists-is-huge)  
 
 ## 删除
-### 1、 删除 repository
+### 1、删除 repository
 删掉不需要的软件。  
 
 删除对应的条目：  
@@ -18,7 +18,7 @@ sudo vim /etc/apt/sources.list
 
 更新 `sudo apt update`。  
 
-### 2、 删除 key
+### 2、删除 key
 查看 `sudo apt-key list`。  
 
 删除 `sudo apt-key del keyid`。  
