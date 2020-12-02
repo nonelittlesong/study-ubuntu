@@ -5,7 +5,8 @@
   
   - https://blog.csdn.net/mynameislinduan/article/details/82147965  
   - https://blog.csdn.net/wy01272454/article/details/72846365  
-  - [git pull --rebase | 简书](https://www.jianshu.com/p/dc367c8dca8e)  
+  - [git pull --rebase | 简书](https://www.jianshu.com/p/dc367c8dca8e)
+  
 </details>
 
 <details>
@@ -80,6 +81,23 @@ merge 操作遇到冲突的时候，当前 merge 不能继续进行下去。手�
 ```
 
 ## 二、Push
+
+**SYNOPSIS**
+
+```
+git push [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>]
+            [--repo=<repository>] [-f | --force] [--prune] [-v | --verbose]
+            [-u | --set-upstream]
+            [--[no-]signed|--sign=(true|false|if-asked)]
+            [--force-with-lease[=<refname>[:<expect>]]]
+            [--no-verify] [<repository> [<refspec>...]]
+```
+
+**选项**
+
+- [refspec](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec)
+- `--prune` — 删除本地没有对应物的远程分支。例如，  
+  `git push --prune remote refs/heads/*:refs/tmp/*`，如果 `refs/heads/foo` 不存在，则会删除远程 `refs/tmp/foo`。
 
 ### 2.1 [--force](https://blog.csdn.net/WPwalter/article/details/80371264)
 
