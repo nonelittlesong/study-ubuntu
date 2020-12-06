@@ -1,8 +1,7 @@
+# study-ubuntu
+
 参考：  
 - https://github.com/junegunn/vim-plug  
-
-
-# study-ubuntu
   
 **wiki**  
 * [ssh](https://github.com/nonelittlesong/study-ubuntu/wiki/SSH)
@@ -15,13 +14,13 @@
 * [CentOS User and Group](https://github.com/nonelittlesong/study-ubuntu/wiki/CentOS-User-and-Group)
 * [防火墙](https://github.com/nonelittlesong/study-ubuntu/wiki/Ubuntu16%E9%98%B2%E7%81%AB%E5%A2%99)
 
-## 一、 Shortcuts
+## 一、Shortcuts
 * `ctrl+shift+t`:在原窗口打开终端
 * `将窗体托向屏幕两侧实现分屏`
 * `Ctrl+Super+D` 最小化所有窗口
 * `Super` 显示快捷键
 
-## 二、 Commands
+## 二、Commands
 #### [查看处理器和系统架构](https://blog.csdn.net/wykkunkun/article/details/79675675)
 ```sh
 uname -a; uname -m; dpkg --print-architecture； getconf LONG_BIT; file /sbin/init;
@@ -96,7 +95,7 @@ filename可以是文件名的一部分
 $ locate filename
 ```
 
-## 三、 Troubleshooting
+## 三、Troubleshooting
 **1、 版本更新后输入法出现问题**  
 >（1） 打开设置  
 >（2） 点击Manager Installed Languages  
@@ -122,3 +121,11 @@ $ locate filename
 ```
 # 编辑 /etc/hosts 和 /etc/hostname，使主机名一致
 ```
+
+## 四、[修改密码](https://blog.csdn.net/lxllinux/article/details/81910507)
+
+1. 在 Grub 菜单选择 `Advanced Options for Ubuntu`。:warning: 如果开机时没有进入 Grub 菜单，则在开机时按住 <kbd>shift</kbd> 键。
+2. 选择 `Recovery Mode`。
+3. 选择 `root Drop to root shell prompt`。
+4. 回车，进入命令行。
+5. 执行 `passwd <username>` 重置密码。
