@@ -9,9 +9,20 @@
 
 </details>
 
-## 1. 成功案例
+## 1. 问题
 
-### 1.1. VPN 连接配置文件
+### 1.1 密码错误
+
+```diff
+- pppd[24956]: CHAP authentication failed: Access denied
+```
+
+- [ppp](https://github.com/paulusmack/ppp) — Point-to-Point Protocol，点对点协议
+
+
+## 2. 成功案例
+
+### 2.1. VPN 连接配置文件
 
 配置文件存放在
 
@@ -51,7 +62,7 @@ ip6-privacy=0
 method=auto
 ```
 
-### 1.2. 运行时生成的文件
+### 2.2. 运行时生成的文件
 
 假设在编译时用了 `--localstatedir=/var` 或 `--runstatedir=/var/run` 配置选项，则在 `/var/run` 目录下有以下文件：
 
@@ -68,7 +79,7 @@ method=auto
 include ipsec.d/ipsec.nm-l2tp.secrets
 ```
 
-### 1.3. 调试
+### 2.3. 调试
 
 查看日志
 
