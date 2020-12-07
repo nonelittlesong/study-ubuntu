@@ -18,7 +18,7 @@
 ```
 
 - [ppp](https://github.com/paulusmack/ppp) — Point-to-Point Protocol，点对点协议
-
+- `journalctl --unit=NetworkManager | grep pppd` — 查看 pppd 日志。
 
 ## 2. 成功案例
 
