@@ -55,6 +55,29 @@ Ubuntu18.04：
 * `source /etc/profile`
 * reboot
 
+## 9. anki
+
+- [anki 官网](https://apps.ankiweb.net/) — 记忆卡片
+
+### 9.1 troubleshooting
+
+#### 问题 1
+
+```diff
+$ QT_DEBUG_PLUGINS=1 anki
+···
+- Qt debug: Cannot load library /usr/local/share/anki/bin/PyQt5/Qt/plugins/platforms/libqxcb.so: (libxcb-xinerama.so.0: cannot open shared object file: No such file or directory)
+···
+```
+
+解决方案：
+
+```
+$ sudo apt install libxcb-xinerama0
+```
+
+如果缺少其他库，解决方法同上···
+
 ## grub
 
 * `sudo vim /boot/grub/grub.cfg`
