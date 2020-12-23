@@ -13,7 +13,13 @@ date -s, --set=STRING
 设置硬件时间：
 
 ```
-hwclock --set --date <time>
+sudo hwclock --set --date <time>
+```
+
+将系统时间写入硬件时间：
+
+```
+hwclock --systohc
 ```
 
 ## 3. 网络时间 ntpdate
@@ -29,10 +35,4 @@ yum -y install ntp ntpdate
 ```
 ntpdate cn.pool.ntp.org
 # ntpdate ntp1.aliyun.com
-```
-
-将系统时间写入硬件时间：
-
-```
-hwclock --systohc
 ```
