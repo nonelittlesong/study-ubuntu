@@ -20,7 +20,7 @@
 
 Ubuntu 默认使用 `timedatectl / timesyncd` 同步时间。
 
-如果使用了 chrony，那么 timedatectl 会自动关闭。
+如果使用了 chrony，重启电脑 timesyncd 自动关闭。
 
 ### 1.1 timedatectl
 
@@ -95,15 +95,22 @@ $ sudo apt install chrony
 编辑配置文件：`sudo vim /etc/chrony/chrony.conf`
 
 ```conf
-···
-
 # 开启 NTP 服务器没同步的情况下，为局域网提供时间服务
 local stratum 10
-
-···
 
 # 允许访问的客户端
 allow 10.205.56.200
 
-···
+# 设置直接改动系统时间的阈值
+makestep 1.0 3
+```
+
+### 2.3. chrony client
+
+由于 ubuntu16.04 timesyncd 的功能不够完善，使用 chrony 配置客户端。
+
+```conf
+# 注释掉默认的 server
+#pool 2.debian.pool.ntp.org offline iburst
+
 ```
