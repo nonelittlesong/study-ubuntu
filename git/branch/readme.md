@@ -19,6 +19,8 @@ $ git push origin --delete <branchName>
 # --------- 添加分支 ---------
 # 添加本地分支
 $ git checkout -b <childBranch> <parentBranch>
+$ git checkout -b <childBranch> origin/<remoteBranch>
+
 # 关联远程分支
 $ git push origin <localBranch>:<remoteBranch> # 只写 localBranch，默认 remoteBranch 和 localBranch 同名
 
