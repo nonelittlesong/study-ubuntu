@@ -11,3 +11,10 @@ ubuntu ALL=(ALL:ALL) NOPASSWD: /home/ubuntu/jenkins/train.sh
 ```
 
 >**注意：**  后面的指令会覆盖前面的指令！！  
+
+## [expect](https://core.tcl-lang.org/expect/index)
+
+参考：
+
+- [Linux Expect 简介和使用实例](https://www.jianshu.com/p/70556b1ce932)
+- [通过 shell 调用 expect 执行多条命令](https://www.cnblogs.com/shoufeng/p/11388060.html)
