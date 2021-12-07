@@ -1,21 +1,16 @@
 # Push 和 Pull 和 fetch
 
-<details>
-  <summary>References</summary>
-  
-  - https://blog.csdn.net/mynameislinduan/article/details/82147965  
-  - https://blog.csdn.net/wy01272454/article/details/72846365  
-  - [git pull --rebase | 简书](https://www.jianshu.com/p/dc367c8dca8e)
-  
-</details>
+参考：
 
-<details>
-  <summary>Table of Contents</summary>
-  
-  - [--rebase](#一git-pull---rebase)
-  - [--all](#二Push-Pull-所有分支)
+- https://blog.csdn.net/mynameislinduan/article/details/82147965  
+- https://blog.csdn.net/wy01272454/article/details/72846365  
+- [git pull --rebase | 简书](https://www.jianshu.com/p/dc367c8dca8e)
+- [本地分支关联远程分支](https://blog.csdn.net/qq_38923792/article/details/103147345)
 
-</details>
+| Table of Contents |
+| --- | --- |
+| [--rebase](#一git-pull---rebase) |
+| [--all](#二Push-Pull-所有分支) |
 
 ## 一、pull
 
@@ -113,7 +108,7 @@ fetch 常和 merge 一起用，git fetch + git merge == git pull。
 
 fetch 下来用 `git diff <reponame>/<branchname>` 查看所处分支与 `<reponame>/<branchname>` 的区别
 
-## 3.1 FETCH_HEAD 概念
+### 3.1 FETCH_HEAD 概念
 
 查看 FETCH_HEAD 内容：  
 ```
@@ -126,7 +121,7 @@ $ cat .git/FETCH_HEAD
 第二列，是否是当前 FETCH_HEAD 将要合并的；  
 第三列，分支的远程 git库路径
 
-## 3.2 用法
+### 3.2 用法
 
 - **git fetch**  
   指令作用：  
