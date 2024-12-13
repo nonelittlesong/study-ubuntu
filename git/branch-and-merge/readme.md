@@ -23,6 +23,8 @@ $ git checkout -b <childBranch> origin/<remoteBranch>
 
 # 关联远程分支
 $ git push origin <localBranch>:<remoteBranch> # 只写 localBranch，默认 remoteBranch 和 localBranch 同名
+# 远程分支未创建，要加 -u
+$ git push -u origin <localBranch>
 
 # --------- 克隆分支 ---------
 $ git clone -b <branchName> https://github.com/username/repositoryname.git
